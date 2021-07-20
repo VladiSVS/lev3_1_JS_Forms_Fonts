@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body {
+    margin: 0;
+    background-color: #2B2C44;
+}
+
+main > section > article > h1:first-of-type {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+main > section > article > h1:last-of-type {
+    text-align: center;
+    margin: 0;
+    margin: 5%
+}
+
+main > section > article {
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 2%;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+}
+
+.config {
+    text-align: center;
+}
+
+.config > input:first-of-type {
+    margin-right: 5%;
+}
+
+.config > select:first-of-type {
+    margin-right: 5%;
+}

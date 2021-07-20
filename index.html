@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                <h1>Fonts Generator</h1>
+                <div class="config">
+                    <input type="range" name="points" id="points" min="10" max="100" step="1" onchange="showPoints()">
+                    <select name="moods" id="moods" onchange="showFonts()">
+                        <option value="'Bodoni Moda', serif" id="fontBodoni"></option>
+                        <option value="'Open Sans', sans-serif" id="fontOpen"></option>
+                        <option value="'Roboto', sans-serif" id="fontRoboto"></option>
+                        <option value="'Yusei Magic', sans-serif" id="fontMagic"></option>
+                    </select>
+                    <input type="text" name="text" id="text" maxlength="20" onchange="writeText()">
+                </div>
+                <h1 id="result"></h1>
+            </article>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
